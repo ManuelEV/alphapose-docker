@@ -1,0 +1,13 @@
+version: '3.4'
+
+services:
+  alphapose-flask:
+    build:
+      dockerfile: .
+      args:
+        gpus: all
+    command: tail -F anything
+    ports:
+     - '5000:5000'
+    expose:
+     - '5000'

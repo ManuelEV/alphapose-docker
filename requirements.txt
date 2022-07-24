@@ -1,0 +1,8 @@
+Flask
+Flask_Cors
+matplotlib
+pycocotools
+pyyaml
+easydict
+scipy
+natsort
